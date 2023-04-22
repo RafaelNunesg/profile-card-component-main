@@ -9,7 +9,12 @@
 body{
     overflow: hidden;
     background: hsl(185, 75%, 39%);
-    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-position: right 50vw bottom 40vh, left 50vw top 40vh;
+    background-repeat: no-repeat, no-repeat;
+    border: 1px solid red, 1px solid green;
 }
 
 .container{
